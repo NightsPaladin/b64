@@ -4,6 +4,7 @@
 
 Basic usage:
 
-$ ./b64.py -e | --encode "<string-to-encode>"
-$ ./b64.py -d | --decode "<string-to-decode>"
+$ ./b64.py -e | --encode "\<string-to-encode\>"
+
+$ ./b64.py -d | --decode "\<string-to-decode\>"
 
