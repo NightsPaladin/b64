@@ -34,7 +34,7 @@ def usage():
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         usage()
-        quit(1)
+        sys.exit(1)
 
     # Break down the choice to 'e' or 'd' regardless of which form used, 'e'
     # and 'd' could also be specified on CLI
@@ -48,7 +48,7 @@ if __name__ == "__main__":
         param = sys.argv[2]
     else:
         usage()
-        quit(1)
+        sys.exit(1)
 
     # Meat and potatoes!
     if choice == 'e':
@@ -57,4 +57,4 @@ if __name__ == "__main__":
         print(decode(param))
     else:
         usage()
-        quit(1)
+        sys.exit(1)
