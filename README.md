@@ -1,4 +1,4 @@
-# b64 - Consistent command-line Base64 Encoder/Decoder program
+# b64 - Command-line Base64 Encoder/Decoder
 
 - Produces HTTP Basic Auth compatible Base64 strings
 
