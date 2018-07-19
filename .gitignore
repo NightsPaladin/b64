@@ -1,0 +1,15 @@
+*bin/
+*build/
+*.idea/
+*include/
+*lib/
+*lib64
+*share/
+*__pycache__/
+*pyvenv.cfg
+*pip-selfcheck\.json
+*.pyc
+*dist/
+*.egg-info
+*MANIFEST
+.envrc

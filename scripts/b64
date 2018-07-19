@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+from b64.b64 import main
+
+if __name__ == "__main__":
+	main()
